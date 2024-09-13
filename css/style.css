@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-color: #49a6dfb8;
+/*  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row; */
+  line-height: 1.5;
+  margin:0;
+  padding:0;
+  position:relative;
+  font-size:large
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  background-color: #1e1873;
+  justify-content: flex-end;
+  
+}
+nav a {
+  color: #d6dfe8;
+  padding: 14px 20px;
+  text-decoration: underline;
+  text-align: center;
+  font-size:large;
+}
+main {
+/*  display: flex;
+  flex: 1 1 0; */
+  max-width: 1200px;
+  margin: 2% auto;
+}
+
+.about-me, .work {
+  display: flex;
+  color: black;
+  font-size: large;
+  margin-bottom: 100px;
+  font-size: large;
+
+  
+}
+
+.projects {
+  width: 100%;
+}
+
+.large {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  border:5px solid rgb(6, 2, 2);
+  height: 450px;
+}
+
+.smaller {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.proj {
+  width: 50%;
+  border: 2px solid rgb(4, 23, 4);
+  height: 350px;
+}
+
+.title {
+  width: 30%;
+  /* border-right: 5px solid black; */
+  margin-right: 20px;
+}
+ 
+.contact-me {
+  width: 50px;
+  font-size: x-large;
+  color: #000;
+
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #010507ec;
+  color: #fff;
+  margin-top: auto;
+  font-size:large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
