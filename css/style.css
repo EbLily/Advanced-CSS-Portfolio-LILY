@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -44,7 +45,7 @@ main {
   margin: 2% auto;
 }
 
-.about-me, .work {
+.about-me{
   display: flex;
   color: black;
   font-size: large;
@@ -56,26 +57,28 @@ main {
 
 .projects {
   width: 100%;
-}
-
-.large {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  width: 70%;
-  border:5px solid rgb(6, 2, 2);
-  height: 450px;
+  justify-content: space-around;
 }
 
-.smaller {
+.level2{
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.proj {
+img{
+  width: 60%;
+}
+/* 
+ .proj {
   width: 50%;
   border: 2px solid rgb(4, 23, 4);
   height: 350px;
-}
+} */ 
 
 .title {
   width: 30%;
