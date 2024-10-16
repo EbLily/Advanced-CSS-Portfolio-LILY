@@ -61,6 +61,8 @@ app will be available on the browser.
 
  ## Deployed Link
 
+ https://eblily.github.io/Advanced-CSS-Portfolio-LILY/
+
 
  ## Screenshot
  ![screenshot of my website](./Assets/personal%20portfolio.PNG)
